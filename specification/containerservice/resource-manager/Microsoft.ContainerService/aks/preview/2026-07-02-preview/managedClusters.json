@@ -16261,7 +16261,7 @@
       "properties": {
         "enabled": {
           "type": "boolean",
-          "description": "Whether upgrade gating is enabled. Defaults to false when omitted."
+          "description": "Whether upgrade gating is enabled for this scope. When omitted, the scope is not explicitly opted in; the effective behavior may still be inherited from a cluster-wide opt-in."
         }
       }
     },

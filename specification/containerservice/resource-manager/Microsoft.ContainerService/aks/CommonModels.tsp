@@ -2983,7 +2983,7 @@ model ClusterUpgradeSettings {
 @added(Versions.v2026_07_02_preview)
 model UpgradeGateSettings {
   /**
-   * Whether upgrade gating is enabled. Defaults to false when omitted.
+   * Whether upgrade gating is enabled for this scope. When omitted, the scope is not explicitly opted in; the effective behavior may still be inherited from a cluster-wide opt-in.
    */
   enabled?: boolean;
 }
