@@ -95,6 +95,13 @@ enum Versions {
   /**
    * The 2026-06-02-preview API version.
    */
+  #suppress "@azure-tools/typespec-azure-core/preview-version-last-member" "Retained alongside the newer 2026-07-02-preview version; both preview versions remain published."
   @previewVersion
   v2026_06_02_preview: "2026-06-02-preview",
+
+  /**
+   * The 2026-07-02-preview API version.
+   */
+  @previewVersion
+  v2026_07_02_preview: "2026-07-02-preview",
 }
